@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SECRETSCENTER</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Ritual Borders -->
+    <div class="ritual-border top"></div>
+    <div class="ritual-border right"></div>
+    <div class="ritual-border bottom"></div>
+    <div class="ritual-border left"></div>
+
+    <!-- Theme Toggle -->
+    <button class="theme-toggle" aria-label="Toggle theme">
+        <svg viewBox="0 0 24 24">
+            <path d="M12 18c-3.3 0-6-2.7-6-6s2.7-6 6-6 6 2.7 6 6-2.7 6-6 6zm0-10v4m-5-5h10M12 2v2m0 16v2M4 12H2m3.6-5.6l1.4 1.4m11.3 0l1.4-1.4M5.6 18.4l1.4-1.4m11.3 0l1.4 1.4M20 12h2"/>
+        </svg>
+    </button>
+
+    <!-- Scroll Indicator -->
+    <div class="scroll-indicator">
+        <div class="scroll-dot active" data-section="hero"></div>
+        <div class="scroll-dot" data-section="membership"></div>
+        <div class="scroll-dot" data-section="faq"></div>
+        <div class="scroll-dot" data-section="cta"></div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="container">
+        <!-- Header -->
+        <header>
+            <div class="logo">
+                <div class="logo-icon"></div>
+                <div class="logo-text">SECRETSCENTER</div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#">Initiation</a></li>
+                <li><a href="#">Chamber</a></li>
+                <li><a href="#">Archives</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </header>
+
+        <!-- Hero Section -->
+        <section class="hero" id="hero">
+            <div class="hero-content">
+                <h1 class="hero-title glitch" data-text="ACCESS RESTRICTED">
+                    <span>ACCESS</span> RESTRICTED
+                </h1>
+                <p class="hero-subtitle">
+                    The threshold stands before you. Beyond lies knowledge reserved for those who have been called. 
+                    Do you possess the required credentials?
+                </p>
+                <a href="#" class="cta-button">REQUEST AUDIENCE</a>
+            </div>
+            <div class="access-indicator">
+                <div class="access-dot"></div>
+                <div class="access-text">CURRENT ACCESS LEVEL: OBSERVER</div>
+            </div>
+            <div class="sigil sigil-1">✧</div>
+            <div class="sigil sigil-2">✧</div>
+            <div class="floating-seal seal-1"></div>
+            <div class="floating-seal seal-2"></div>
+            <div class="decorative-circle"></div>
+        </section>
+
+        <!-- Membership Section -->
+        <section class="membership-section" id="membership">
+            <h2 class="section-title">PATHWAYS OF ENTRY</h2>
+            <div class="membership-grid">
+                <div class="membership-card">
+                    <div class="card-icon"></div>
+                    <h3 class="card-title">The Invitation</h3>
+                    <p class="card-text">
+                        A direct summons from within the inner circle. The most sacred path, reserved for those whose 
+                        presence has been foretold in the chronicles. This golden ticket cannot be requested—only received.
+                    </p>
+                </div>
+                <div class="membership-card">
+                    <div class="card-icon"></div>
+                    <h3 class="card-title">The Recognition</h3>
+                    <p class="card-text">
+                        For those who discover the hidden sigils in the world beyond. Seven must be collected and 
+                        presented at the appointed hour. Each sigil reveals itself only to the worthy.
+                    </p>
+                </div>
+                <div class="membership-card">
+                    <div class="card-icon"></div>
+                    <h3 class="card-title">The Trial</h3>
+                    <p class="card-text">
+                        A path of tests and revelations. Few complete the journey, but those who do emerge 
+                        transformed beyond measure. The trial adapts to each seeker, revealing their truest nature.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="faq-section" id="faq">
+            <div class="faq-container">
+                <h2 class="section-title">ENQUIRIES</h2>
+                <div class="faq-item">
+                    <h3 class="faq-question">How does one receive an invitation?</h3>
+                    <div class="faq-answer">
+                        <p>
+                            Invitations are never requested—they are bestowed. The mechanisms of selection remain 
+                            obscured by design. When the time is proper, you will know. Signs manifest differently 
+                            for each initiate, but all report an unmistakable certainty when the call arrives.
+                        </p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <h3 class="faq-question">What occurs if I share access with others?</h3>
+                    <div class="faq-answer">
+                        <p>
+                            The bonds of trust, once broken, cannot be reforged. Transgressors find their pathways 
+                            permanently severed. The chambers have ways of knowing. Even attempts at circumvention 
+                            leave traces that cannot be erased.
+                        </p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <h3 class="faq-question">Is there a financial obligation?</h3>
+                    <div class="faq-answer">
+                        <p>
+                            The currency of this realm is not of material concern. What is asked cannot be quantified 
+                            in conventional terms. The exchange operates on different principles—commitment, discretion, 
+                            and occasionally, specific services rendered to the collective.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Registration CTA -->
+        <section class="registration-cta" id="cta">
+            <div class="cta-content">
+                <h2 class="cta-title">THE GATE AWAITS</h2>
+                <p class="cta-text">
+                    Should you believe yourself prepared to cross the threshold, the ritual of initiation may 
+                    commence. Know that once begun, there is no return to what came before. The path narrows 
+                    as one ascends—choose your steps with care.
+                </p>
+                <a href="#" class="cta-button">BEGIN ASCENSION</a>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <div class="footer-logo">
+                <div class="logo-icon"></div>
+                <div class="logo-text">SECRETSCENTER</div>
+            </div>
+            <ul class="footer-links">
+                <li><a href="#">Sanctum</a></li>
+                <li><a href="#">Covenants</a></li>
+                <li><a href="#">Silence</a></li>
+                <li><a href="#">Egress</a></li>
+            </ul>
+            <p class="copyright">
+                All chambers sealed. All rites protected. © SECRETSCENTER
+            </p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
